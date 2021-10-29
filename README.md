@@ -1,2 +1,4 @@
 # CoverLetterGame
-node, react기반 취업용 자기소개서 에디터 개발
+```
+master branch에서 소스코드 볼 수 있습니다.
+```
