@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  font-family: baemin;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-items {
+  background-color: sandybrown;
+  color: white;
+  display: block;
+  top: 0;
+  left: 0; 
+  right: 0;
+  height: 60px;
+  /* margin: -60px 0 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.header-item {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.username {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.jumbo {
+  font-size: 20pt;
+  color: white;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  margin-bottom: 3%;
+}
+
+.btn-login, .btn-signup { 
+  height: 40px;
+  width: 70px;
+  background-color: seagreen;
+  font-family: baemin;
+  font-size: large;
+}
+
+.new-create-bar {
+  height: 100px;
+  width: 230px;
+  background-color: palegoldenrod;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.card {
+  background-color: burlywood;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.edit {
+  background-color: seagreen;
+  color: white;
+}
+
+.title-input {
+  width: 700px;
+}
+
+textarea {
+  width: 700px;
+  height: 500px;
+}
+
+form {
+  background-color: sandybrown;
+  width: 400px;
+  height: 250px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* @media screen and (min-width : 700px){
+  .detail-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+} */
+
+.detail-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  }
+
+
+.versions {
+  width: 300px;
+}
+
+.feedback {
+  margin-top: 30px;
+  width: 700px;
+  background-color: cadetblue;
+}
+
+.suggest {
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+}
