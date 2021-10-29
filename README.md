@@ -36,7 +36,7 @@ master branch에서 소스코드 볼 수 있습니다.
 ![스크린샷(277)](https://user-images.githubusercontent.com/64837637/139394860-4989e2d3-8402-452a-8fa6-d860fe5a5f82.png)  
 #
 
--자기소개서 에디터 기능
+- 자기소개서 에디터 기능
 ```
 1. 자기소개서 작성 및 글자수 체크가 가능. 공백 포함/미포함 모두 확인 가능.
 2. 버젼 생성 버튼을 클릭하면, 서버 측에 현재 텍스트와 타이틀이 전달되고, DB에 저장. 이전 버젼의 텍스트도 볼 수 있음.
@@ -44,7 +44,7 @@ master branch에서 소스코드 볼 수 있습니다.
 ![스크린샷(278)](https://user-images.githubusercontent.com/64837637/139394872-8eae81ec-8652-46cb-ba83-5e5aa276f2c3.png)  
 #
 
--문법 검사 기능
+- 문법 검사 기능
 ```
 1. Hanspell.js 라이브러를 활용해서 문법검사기능 추가. 링크 -> https://www.npmjs.com/package/hanspell 
 2. 받아온 결과 역시 Card Layout으로 보기 좋게 정리 
